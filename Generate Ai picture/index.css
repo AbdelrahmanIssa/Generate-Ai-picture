@@ -1,0 +1,44 @@
+body{
+  font-family: Arial, sans-serif,FontAwesome;
+}
+
+#images div{
+height: 200px;
+width: 200px;
+margin:6px auto;
+}
+@media (max-width:  576px) {
+  #images div{
+    height: 100px;
+    width: 100px;
+    margin:6px ;
+
+    }
+    #images div img{
+      height: 100px;
+      width: 100px;
+      margin: 6px;
+      }
+  }
+@media (max-width: 991px) {
+  #images div{
+    height: 110px;
+    width: 110px;
+    margin:6px ;
+
+    }
+    #images div img{
+      height: 110px;
+      width: 110px;
+      margin: 6px;
+      }
+};
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  }
+  
+.form-control:focus {
+  box-shadow:0 0 0 0rem rgb(0 0 0 / 0%) !important;};
