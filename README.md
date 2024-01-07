@@ -1,6 +1,8 @@
 # Generate AI Picture
 Welcome to the Generate AI Picture project! This is simple web leverages the power of OpenAI API along with HTML, CSS, JavaScript, and Bootstrap to create unique and AI-generated images.
 [Generate AI Picture](https://roaring-liger-74b1bd.netlify.app/)
+
+## Api:https://api.openai.com/v1/images/generations
 ## Features
 
 ### 1. AI-Powered Image Generation
